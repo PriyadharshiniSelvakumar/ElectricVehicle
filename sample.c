@@ -23,6 +23,6 @@ IO0DIR |= 0x007F8000;
 		 {
 		  IO0CLR = 0x007F8000;
 		  IO0SET = (dig[count] << 15);
-		 delay(200);
+		 delay(500);
 		}		
   }}
